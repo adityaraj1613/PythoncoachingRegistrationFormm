@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Coaching Classes Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Python Coaching Classes</h1>
+            <p>Join our Python coaching classes to learn from experts and master Python programming. Key values you will learn include:</p>
+            <ul>
+                <li>Fundamentals of Python</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Development with Python</li>
+                <li>Data Analysis and Visualization</li>
+                <li>Machine Learning and AI</li>
+            </ul>
+            <p>Contact us: <a href="tel:+1234567890">+1 234 567 890</a> | <a href="mailto:email@example.com">email@example.com</a></p>
+        </header>
+        
+        <section id="services">
+            <h2>Services We Deliver</h2>
+            <p>Our Python coaching classes offer a range of services that will be highly beneficial for coders, enhancing their future prospects:</p>
+            <ul>
+                <li>One-on-one mentoring sessions</li>
+                <li>Hands-on coding practice</li>
+                <li>Real-world project experience</li>
+                <li>Job interview preparation</li>
+                <li>Networking opportunities with industry professionals</li>
+                <li>Continuous learning resources and support</li>
+            </ul>
+        </section>
+
+        <form id="registrationForm">
+            <h2>Register Now</h2>
+            <div class="form-group">
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName" name="studentName" required>
+                <span class="error" id="studentNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="fatherName">Father Name</label>
+                <input type="text" id="fatherName" name="fatherName" required>
+                <span class="error" id="fatherNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="motherName">Mother Name</label>
+                <input type="text" id="motherName" name="motherName" required>
+                <span class="error" id="motherNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="notSure">Not Sure</option>
+                </select>
+                <span class="error" id="genderError"></span>
+            </div>
+            <div class="form-group">
+                <label for="category">Category</label>
+                <input type="text" id="category" name="category" required>
+                <span class="error" id="categoryError"></span>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                <span class="error" id="dobError"></span>
+            </div>
+            <div class="form-group">
+                <label for="class">Class</label>
+                <input type="text" id="class" name="class" value="6th" readonly>
+                <span class="error" id="classError"></span>
+            </div>
+            <div class="form-group">
+                <label for="district">District</label>
+                <input type="text" id="district" name="district" required>
+                <span class="error" id="districtError"></span>
+            </div>
+            <div class="form-group">
+                <label for="aadharNumber">Aadhar Number</label>
+                <input type="text" id="aadharNumber" name="aadharNumber" required>
+                <span class="error" id="aadharNumberError"></span>
+            </div>
+            <div class="form-group">
+                <label for="shramikCardNumber">Shramik Card Number</label>
+                <input type="text" id="shramikCardNumber" name="shramikCardNumber" required>
+                <span class="error" id="shramikCardNumberError"></span>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Mobile/Phone Number</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" required>
+                <span class="error" id="phoneNumberError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="address">Your Full Address</label>
+                <textarea id="address" name="address" required></textarea>
+                <span class="error" id="addressError"></span>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <footer>
+        <p>Follow us on: 
+            <a href="#"><i class="fab fa-facebook-f"></i></a> 
+            <a href="#"><i class="fab fa-twitter"></i></a> 
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
